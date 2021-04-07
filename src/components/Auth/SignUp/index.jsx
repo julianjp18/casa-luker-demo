@@ -4,6 +4,7 @@ import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { connect } from 'react-redux';
 
 import logo from '../../../resources/images/logo-luker.png';
+import logoTreking from '../../../resources/images/logo-treking.png';
 
 import './signUp.scss';
 import { push } from 'connected-react-router';
@@ -104,7 +105,7 @@ const SignUp = ({ goToHome, goToAuth }) => {
       </Col>
       <Col xs={24}>
         <div className="footer-content">
-          <img className="logo" src={logo} alt="casa luker"/>
+          <img className="logo" src={logoTreking} alt="casa luker"/>
           <p className="extra-text">Innovation in logistics 4.0</p>
         </div>
       </Col>
